@@ -14,7 +14,7 @@
 
 Copy repo to local machine. The repo contains a csv file named `data.csv`
 ```sh
-$ git clone git@github.com:jiaojiaon/CISC3140_Lab4.git
+$ https://github.com/Hmmsien/cars_webapp.git
 $ git submodule init
 $ git submodule update
 ```
