@@ -41,6 +41,10 @@
     font-weight: bold;
 }
 
+::placeholder {
+	color:#cbd0d5;
+}
+
 .carsTable {
     border-radius: 5px;
     padding: 10px;

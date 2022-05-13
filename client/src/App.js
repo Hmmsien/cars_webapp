@@ -11,8 +11,8 @@ export default function App() {
       <Navbar />
           <h1 className="homeHeader">Cars Data</h1>
           <p className="homeP">Fullstack web application built with Node/Express, SQLite, and React. <br></br>
-          <br></br>Please use the links in the navigation bar above 
-          <br></br>To view, add to, and update the cars data and owners data in the database.</p>
+          <br></br>The navigation bar above allow to
+          <br></br>view, add, and update the cars or owners information on the database.</p>
     </div>
   )
 }
