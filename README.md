@@ -25,7 +25,7 @@ To connect to the backend server, cd into the [server folder](./server/) and run
 $ git submodule init
 $ git submodule update
 npm install
-cat server/create_table.sql | sqlite3 server/cars.db
+cat create_table.sql | sqlite3 cars.db
 npm start
 ```
 
