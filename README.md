@@ -14,9 +14,7 @@
 
 Copy repo to local machine. The repo contains a csv file named `data.csv`
 ```sh
-$ git clone git@github.com:jiaojiaon/CISC3140_Lab4.git
-$ git submodule init
-$ git submodule update
+$ https://github.com/Hmmsien/cars_webapp.git
 ```
 
 After cloning the project repository, you must connect to both the backend server and the frontend application. 
@@ -24,6 +22,8 @@ After cloning the project repository, you must connect to both the backend serve
 To connect to the backend server, cd into the [server folder](./server/) and run the following lines of code to install the project dependencies and start the application.
 
 ```
+$ git submodule init
+$ git submodule update
 npm install
 cat server/create_table.sql | sqlite3 server/cars.db
 npm start
